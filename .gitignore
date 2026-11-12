@@ -1,0 +1,111 @@
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# PYTHON CACHE & COMPILED FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==========================================
+# VS CODE & IDE
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# STREAMLIT
+# ==========================================
+.streamlit/cache/
+
+# ==========================================
+# LANGCHAIN & LANGSMITH
+# ==========================================
+.langchain/
+.langsmith/
+
+# ==========================================
+# RAG & VECTOR DATABASE
+# ==========================================
+faiss_index/
+vector_store/
+chroma_db/
+chroma/
+*.faiss
+*.pkl
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# TESTING & COVERAGE
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# ENVIRONMENT & PACKAGE MANAGERS
+# ==========================================
+pip-wheel-metadata/
+poetry.lock.backup
+
+# ==========================================
+# UPLOADED PDF & GENERATED DATA
+# ==========================================
+uploads/
+generated/
